@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display&family=Heebo&family=Kanit&family=Satisfy&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Heebo', sans-serif;
+}
+
+nav{
+    background-color: rgb(34, 200, 255);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   
+}
+nav ul{
+    display: flex;
+
+}
+
+nav ul li a{
+    display: flex;
+    margin: 30px;
+    text-decoration: none;
+    color: rgb(202, 9, 9);
+}
+
+nav ul li a:hover{
+    color: rgb(249, 120, 120);
+    text-shadow: 2px 4px 6px;
+}
+video{
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 15%;
+    left: 39%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 4px 8px;
+    
+   
+}
+
+h1{
+    font-family: 'DM Serif Display', serif;
+}
+
+span{
+    color: blue;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+
+}
+#home::before{
+    content: "";
+    background-image: url('https://wallpapercave.com/wp/wp8220607.jpg');
+    height:1000px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    position: absolute;
+    border: 3px ridge white;
+    padding: 80px;
+    top: 1100px;
+    left: 10%;
+    box-shadow: 5px 6px 7px 9px;
+}
+h2{
+    text-align: center;
+    margin: 10px;
+}
+h2:hover{
+    text-shadow: 3px 5px 6px;
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 10px;
+ 
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+.pic p{
+    text-align: justify;
+    margin: 30px;
+}
+.gallery{
+    margin-left: 100px;
+}
+.gallery img{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+.gallery img:hover{
+    box-shadow: 2px 3px 4px 6px  rgb(34, 200, 255);
+}
+.row{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  
+}
+.box{
+    
+    margin: 20px;
+    border: 5px ridge;
+    background: linear-gradient(to top, rgb(72, 209, 255) 50%,white 50%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+}
+.box img{
+    width: 100%;
+}
+.box h4{
+    text-align: center;
+    color: rgb(0, 25, 149);
+}
+.box p{
+    text-align: justify;
+    margin: 20px;
+}
+.box:hover{
+    background-position: left bottom;
+    border: none;
+    box-shadow: 2px 3px 4px 5px;
+}
+form{
+    width: 400px;
+
+}
+.input{
+    display: flex;
+    width: 100%;
+    margin-left: 550px;
+    text-align: center;
+    justify-content: center;
+}
